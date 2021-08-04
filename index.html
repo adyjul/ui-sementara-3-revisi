@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Uji Coba</title>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/owl-carousel.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/imagehover.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand font-weight-bold" href="#"
+            >Ady<span class="text-primary font-weight-bold">Jul</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img src="./images/icon-grey.png" class="mobile-quick" style="width: 10%; margin-right: 15px;
+              margin-left: 9px;" alt="" data-toggle="modal" data-target="#exampleModal">
+
+              <div class="dropdown mobile-dropdown">
+                <a href="#" id="imageDropdown" data-toggle="dropdown">
+                  <img src="./images/person.png" class="mobile-account" style="width: 100%;" alt="">
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
+                  <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="#">                    
+                    <i class="fa fa-cog mb-2" aria-hidden="true"></i>
+                    Setting</a>                  
+                  </li>
+                    <li role="presentation" class="divider"></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+                    <i class="fa fa-user" aria-hidden="true"></i>  
+                    Profile</a>
+                  </li>                
+                    <hr>
+                  <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="#">
+                      <i class="fa fa-sign-out" aria-hidden="true"></i>
+                      Logout</a>
+                  </li>
+                </ul>
+              </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto text-center">
+              <li class="nav-item active">
+                <a class="nav-link text-dark scroll-to-section" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark scroll-to-section" href="#informasi"
+                  >Informasi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark scroll-to-section" href="#pencegahan"
+                  >Pencegahan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark scroll-to-section" href="#hubungi"
+                  >hubungi</a
+                >
+              </li>                          
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <img src="./images/icon-grey.png" class="quick-link btn" style="width: 5%;" alt="" data-toggle="modal" data-target="#exampleModal" >           
+            <div class="dropdown">
+              <a href="#" id="imageDropdown" data-toggle="dropdown">
+                <img src="./images/person.png" class="account mr-4" style="width: 150%;" alt="">                                                     
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#">                    
+                  <i class="fa fa-cog mb-2" aria-hidden="true"></i>
+                  Setting</a>                  
+                </li>
+                  <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+                  <i class="fa fa-user" aria-hidden="true"></i>  
+                  Profile</a>
+                </li>                
+                  <hr>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#">
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    Logout</a>
+                </li>
+              </ul>
+            </div>
+      </nav>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal modal-dialog-scrollable " role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Pilih Menu</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-4 text-center">                
+                  <img src="./images/person.png" class="person" alt="">
+                  <a href="#">Akun</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/jurnal.png" class="pelayanan" alt="">
+                  <a href="#">Jurnal</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/lab-icon-png-17.png" class="lab" alt="">
+                  <a href="#">Penelitian</a>
+                </div> 
+                <div class="col-4 text-center">
+                  <img src="./images/news.png" class="lab" alt="">
+                  <a href="#">Berita</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/lokasi.png" class="lab" alt="">
+                  <a href="#">Lokasi</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/support-512.png" class="lab" alt="">
+                  <a href="#">Call Center</a>
+                </div>                                     
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-4 text-center">                
+                  <img src="./images/person.png" class="person" alt="">
+                  <a href="#">Akun</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/support-512.png" class="lab" alt="">
+                  <a href="#">Call Center</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/lokasi.png" class="lab" alt="">
+                  <a href="#">Lokasi</a>
+                </div>              
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-4 text-center">                
+                  <img src="./images/person.png" class="person" alt="">
+                  <a href="#">Akun</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/support-512.png" class="lab" alt="">
+                  <a href="#">Call Center</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/lokasi.png" class="lab" alt="">
+                  <a href="#">Lokasi</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/lab-icon-png-17.png" class="lab" alt="">
+                  <a href="#">Penelitian</a>
+                </div>
+              </div>
+            </div>        
+          </div>
+        </div>
+      </div>
+    
+    
+    
+  
+      
+  
+      <div class="jumbotron text-center">
+        <h1 id="home" class="display-4 text-dark">
+          Selamat Datang di<br />
+          <span class="font-weight-bold text-dark"
+            >Di Website Portofilio Kami</span
+          >
+        </h1>
+        <hr class="my-4 text-center" />
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >Selengkapnya</a
+          >
+        </p>
+        <img src="./images/banner.png" alt="" />
+      </div>
+  
+      <div id="informasi">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="content-left">
+              <div class="container">
+                <div class="title">
+                  <h2 class="mb-2">"Stay Safe and Stay Home"</h2>
+                </div>
+                <div class="field">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
+                    ipsum quos nesciunt magnam accusantium sunt voluptatum nemo
+                    autem corporis quasi.
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <a href="#" class="btn btn-custom btn-lg page-scroll"
+                      >Learn More</a
+                    >
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="btn btn-custom2 btn-lg page-scroll"
+                      >View More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-lg-6 col-sm-12">
+            <div class="content-right">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="icon">
+                      <i class="fas fa-head-side-mask"></i>
+                    </div>
+                    <div class="title">
+                      <h3 class="text-white">Pakai Masker</h3>
+                    </div>
+                    <div class="field">
+                      <p class="text-white">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Excepturi praesentium quae vitae?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="icon">
+                      <i class="fas fa-hands-wash"></i>
+                    </div>
+                    <div class="title">
+                      <h3 class="text-white">Cuci Tangan</h3>
+                    </div>
+                    <div class="field">
+                      <p class="text-white">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Excepturi praesentium quae vitae?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="icon">
+                      <i class="fas fa-users-slash"></i>
+                    </div>
+                    <div class="title">
+                      <h3 class="text-white">Hindari Kerumunan</h3>
+                    </div>
+                    <div class="field">
+                      <p class="text-white">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Excepturi praesentium quae vitae?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="pencegahan">
+        <div class="col-md-12 text-center judul">
+          <h3>Pencegahan</h3>
+          <hr />
+        </div>
+        <div class="row content-1">
+          <div class="col-md-6 col-lg-6 col-sm-12 content-left">
+            <div class="img">
+              <img src="./images/jaga jarak.png" alt="" />
+            </div>
+            <div class="line-border"></div>
+          </div>
+  
+          <div class="col-md-6 col-lg-6 col-sm-12 content-right">
+            <h2>Jaga Jarak</h2>
+            <p class="text-left ml-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              quod ex hic illo incidunt suscipit error. Molestiae excepturi non
+              alias, fugit placeat possimus esse dignissimos ab distinctio sunt
+              laudantium dolorum saepe nemo, eaque sequi quasi. Iste doloremque
+              quae esse eveniet?
+            </p>
+            <a type="button" class="btn btn-outline-dark btn-custom" href="#"
+              >Selengkapnya</a
+            >
+          </div>
+        </div>
+  
+        <div class="row content-2">
+          <div class="col-md-6 col-lg-6 col-sm-12 content-left">
+            <h2>Pakai Masker</h2>
+            <p class="text-right ml-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              quod ex hic illo incidunt suscipit error. Molestiae excepturi non
+              alias, fugit placeat possimus esse dignissimos ab distinctio sunt
+              laudantium dolorum saepe nemo, eaque sequi quasi. Iste doloremque
+              quae esse eveniet?
+            </p>
+            <a type="button" class="btn btn-outline-dark btn-custom" href="#"
+              >Selengkapnya</a
+            >
+          </div>
+  
+          <div class="col-md-6 col-lg-6 col-sm-12 content-right">
+            <div class="img">
+              <img src="./images/pakai-masker.png" alt="" />
+            </div>
+          </div>
+        </div>
+  
+        <div class="row content-1">
+          <div class="col-md-6 col-lg-6 col-sm-12 content-left">
+            <div class="img">
+              <img src="./images/cuci-tangan.png" alt="" />
+            </div>
+            <div class="line-border"></div>
+          </div>
+  
+          <div class="col-md-6 col-lg-6 col-sm-12 content-right">
+            <h2>Rajin Cuci Tangan</h2>
+            <p class="text-left ml-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              quod ex hic illo incidunt suscipit error. Molestiae excepturi non
+              alias, fugit placeat possimus esse dignissimos ab distinctio sunt
+              laudantium dolorum saepe nemo, eaque sequi quasi. Iste doloremque
+              quae esse eveniet?
+            </p>
+            <a type="button" class="btn btn-outline-dark btn-custom" href="#"
+              >Selengkapnya</a
+            >
+          </div>
+        </div>
+      </div>
+  
+      <div id="background-theme">
+        <div class="container">
+          <p>
+            "Dengan Bersabar InsyaAllah Pandemi yang melanda Dunia ini segera
+            berakhir"
+          </p>
+        </div>
+      </div>
+  
+      <div id="hubungi">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center judul">
+              <h3>Kritik dan Saran</h3>
+              <hr />
+            </div>
+  
+            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+              <form action="#" method="post">
+                <label>NAME</label>
+                <input
+                  name="fullname"
+                  type="text"
+                  class="form-control"
+                  id="fullname"
+                />
+  
+                <label>EMAIL</label>
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  id="email"
+                />
+  
+                <label>MESSAGE</label>
+                <textarea
+                  name="message"
+                  rows="4"
+                  class="form-control"
+                  id="message"
+                ></textarea>
+  
+                <button class="btn btn-custom bt-lg" type="submit">Kirim</button>
+              </form>
+            </div>
+  
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <address>
+                <p class="address-title">Alamat Kami</p>
+                <span>Jam layanan 06.00 - 21.00 </span>
+                <p><i class="fa fa-phone"></i>083845551316</p>
+                <p><i class="fa fa-phone"></i> Adyjuliyanto@gmail.com</p>
+                <p>
+                  <i class="fa fa-map-marker"></i>Jln.Seruni 1 no 10 Kec.Dau,
+                  Kab.Malang
+                </p>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <footer id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>Template made by Ady Juliyanto</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/owl-carousel.js"></script>
+    <script src="./js/jquery.easing.1.3.js"></script>
+
+    <!-- Plugins -->
+    <script src="./js/jquery.animatecss.min.js"></script>
+
+    <!-- Global Init -->
+    <script>
+      new WOW().init();
+    </script>
+    <script src="./js/custom.js"></script>
+    <script></script>
+  </body>
+</html>

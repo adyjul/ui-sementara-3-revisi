@@ -1,0 +1,543 @@
+/* 
+
+    Template made by adyjul with bootstrap 
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+.main{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+}
+
+/* navbar  */
+
+.navbar-light .navbar-toggler{
+  border: none;
+}
+
+.navbar #imageDropdown{
+  display: block;
+  max-width: 30px;
+  margin-right: 30px;
+}
+
+.navbar .dropdown-menu li i{
+  color: #7e7e7e;
+}
+
+.navbar .account{
+  border-radius: 50%;
+  border: .1px solid #7e7e7e;
+  padding: 2px;
+}
+
+.navbar .quick-link{
+  margin-right: 10px;
+}
+
+.navbar .quick-link:hover{
+  background-color: rgb(204, 204, 204);  
+  border-radius: 50%;    
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.navbar .mobile-account{
+  display: none;
+}
+
+.navbar .mobile-quick{
+  display: none;
+}
+
+
+.navbar ul li a {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.fixed-top {
+  top: -40px;
+  transform: translateY(40px);
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.3s;
+}
+
+.navbar .dropdown{
+  margin-right: 10px;  
+}
+
+.navbar .dropdown-menu{
+  left: -59px;
+  padding: 10px;  
+  min-width: 8rem;
+}
+
+.navbar .dropdown-menu li a{  
+  font-size: 15px;
+  color: black;
+}
+
+.navbar #imageDropdown {
+  display: block;
+  max-width: 30px;
+  margin-right: 30px;
+}
+
+
+/* end navbar */
+
+/* modal */
+
+.modal-body::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-body{
+  -ms-overflow-style: none;  /* IE dan Edge */
+   scrollbar-width: none;  /* Firefox */
+}
+
+.modal .modal-body img{
+  width: 55%;
+}
+
+
+.modal .modal-body a{
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: bold;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.modal .modal-body .text-center:hover{
+  cursor: pointer;  
+}
+
+.modal .modal-body .text-center{
+  margin-bottom: 2rem;
+}
+
+/* end modal */
+
+
+/* jumbotron */
+
+.jumbotron {
+  transition: all;
+  background-color: black;
+  background-image: url(../images/bg1.jpg);
+  background-attachment: fixed;  
+  text-align: center;
+  margin-top: -60px;
+}
+
+.jumbotron img {
+  width: 41%;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  margin-top: 50px;
+  font-size: 46px;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 20px;
+}
+
+.jumbotron hr {
+  border-color: #06cdbf;
+  width: 70px;
+  border-width: 3px;
+  margin: auto;
+}
+
+.jumbotron .btn {
+  background-color: #06cdbf;
+  border-radius: 25px;
+  border: none;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* end jumbotron */
+
+/* informasi */
+
+#informasi .content-left {
+  padding: 65px;
+}
+
+#informasi .content-left h2 {
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+#informasi .content-left .btn-custom {
+  text-transform: uppercase;
+  background-color: #06cdbf;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all;
+  border: none;
+}
+
+#informasi .content-right {
+  background-color: #06cdbf;
+  padding: 3rem;
+}
+
+#informasi .content-right .row {
+  margin-bottom: 30px;
+}
+
+#informasi .content-right .icon i {
+  width: 70px;
+  height: 70px;
+  line-height: 63px;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+  border: 3px solid white;
+  font-size: 30px;
+  position: absolute;
+  float: left;
+}
+
+#informasi .content-right .title {
+  margin-left: 100px;
+}
+
+#informasi .content-right .title h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#informasi .content-right .field {
+  margin-left: 100px;
+}
+
+/* end informasi */
+
+/* pencegahan */
+
+#pencegahan {
+  background-color: #f5fcfb;
+  padding: 50px;
+}
+
+#pencegahan .content-1 {
+  margin-top: 100px;
+}
+
+#pencegahan .text-center h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#pencegahan hr {
+  margin-top: 10px !important;
+  margin-bottom: 80px !important;
+  border-top: 0px;
+  height: 3px;
+  width: 40px;
+  background-color: #06cdbf;
+  margin: auto;
+}
+
+/* #pencegahan .line-border {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  border: 5px solid #f05f40;
+  width: 95%;
+  height: 100%;
+  background-color: #fd7c5e; 
+  box-shadow: #fff;
+} */
+
+/* #pencegahan .img img {
+  z-index: 2;
+  position: relative;
+  left: 40px;
+  right: 20px;
+  top: 20px;
+  width: 100%;
+} */
+
+/* #pencegahan .content-right{  
+  text-align: center;
+} */
+
+#pencegahan .img img {
+  width: 100%;
+}
+
+#pencegahan .content-right h2 {
+  font-weight: bold;
+  position: relative;
+  left: 40px;
+}
+
+#pencegahan .content-right .btn-custom {
+  position: absolute;
+  left: 60px;
+}
+
+#pencegahan .content-2 {
+  margin-top: 100px;
+}
+
+#pencegahan .content-2 h2 {
+  font-weight: bold;
+  text-align: right;
+}
+
+#pencegahan .content-2 .btn-custom {
+  position: absolute;
+  right: 10px;
+}
+
+/* end pencegahan */
+
+/* background tengah */
+
+#background-theme {
+  background-image: url(../images/bg1.jpg); 
+  background-attachment: fixed;
+  padding: 4rem 2rem;
+}
+
+#background-theme p {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+/* end background tengah */
+
+/* kritik dan saran */
+
+#hubungi hr {
+  margin-top: 10px !important;
+  margin-bottom: 30px !important;
+  border-top: 0px;
+  height: 3px;
+  width: 40px;
+  background-color: #06cdbf;
+  margin: auto;
+}
+
+#hubungi .judul h3 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#hubungi {
+  background-color: #303030;
+  padding: 50px 50px 0 0;
+  padding-bottom: 20px;
+}
+
+#hubungi .btn-custom {
+  margin: 30px 0;
+  background: transparent;
+  border: 2px solid #fff;
+  color: white;
+}
+
+#hubungi h2,
+#hubungi label,
+#hubungi p,
+#hubungi span {
+  color: white;
+}
+
+#hubungi address {
+  border-bottom: 1px solid #505050;
+  padding-top: 30px;
+}
+
+#hubungi address .address-title {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#hubungi address span {
+  display: block;
+  padding-bottom: 30px;
+}
+
+#hubungi address .fa {
+  border: 1px solid #fff;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* end kritik dan saran */
+
+/* footer */
+
+#footer {
+  padding: 25px 0px;
+  background-color: #06cdbf;
+}
+
+#footer p {
+  color: white;
+  font-weight: 600;
+}
+
+/* end footer */
+
+/* responsive */
+
+@media (max-width: 767px) and (max-width: 766px) {
+  .jumbotron {
+    margin-top: 0;
+  }
+  .jumbotron h1 {
+    font-size: 30px !important;
+  }
+
+  .jumbotron img {
+    width: 100%;
+  }
+
+  .jumbotron .lead a {
+    font-size: 15px;
+  }
+
+  #informasi .content-left {
+    padding: 15px;
+  }
+
+  #pencegahan .content-2 .content-right img {
+    margin-top: 30px;
+  }
+
+  #pencegahan .content-2 .content-left h2 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 360px) and (max-width: 375px) {
+  .jumbotron {
+    margin-top: 0;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+
+  .jumbotron img {
+    width: 100%;
+  }
+
+  .jumbotron .lead a {
+    font-size: 15px;
+  }
+  #pencegahan .content-1 .content-right h2 {
+    margin-top: 40px;
+  }
+
+  #pencegahan .content-2 .content-left {
+    margin-bottom: 60px;
+  }
+}
+
+
+@media (max-width: 990px) {
+  /* #home {
+    padding-top: 60px !important;
+  } */
+
+  .navbar .quick-link,
+  .navbar .account{
+    display: none;
+  }
+
+  .navbar .dropdown{
+    margin-right: -19px;
+    margin-bottom: 3px;
+  }
+
+  .navbar .dropdown-menu li a{
+    font-size: 14px;
+  }
+
+  .navbar .dropdown-menu{  
+    min-width: 7rem;
+    padding: 18px;
+  }
+
+  .navbar .mobile-account{
+    display: block;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: .1px solid #7e7e7e;
+    padding: 2px;
+  }
+  
+
+
+  .navbar .mobile-quick{
+    display: block;    
+    cursor: pointer;    
+  }  
+
+}
+
+
+/*  */
+
+/* end responsive */
