@@ -125,6 +125,26 @@ p {
   display: none;
 }
 
+.modal .btn-back:hover{
+  cursor: pointer;
+}
+
+.grid-item { 
+  width: 100%;   
+  margin-right: 10px;
+}
+
+/* .modal .sub-menu{
+  margin-left: 43px;
+} */
+
+.modal .sub-menu .grid-item i{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+
+
 .modal-body{
   -ms-overflow-style: none;  /* IE dan Edge */
    scrollbar-width: none;  /* Firefox */

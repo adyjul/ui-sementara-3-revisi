@@ -125,75 +125,100 @@
             </div>
       </nav>
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal modal-dialog-scrollable " role="document">
+        <div class="modal-dialog modal modal-dialog-scrollable " role="document" style="transition: 1s all;">
           <div class="modal-content">
             <div class="modal-header">
+              <i class="fas fa-chevron-left btn btn-back" style="display: none;"></i>
               <h5 class="modal-title">Pilih Menu</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <div class="row">
-                <div class="col-4 text-center">                
+              <div class="row main-menu">
+                <div data-name=".jurusan" class="col-4 text-center btn jr">                
                   <img src="./images/person.png" class="person" alt="">
-                  <a href="#">Akun</a>
+                  <a href="#">Jurusan</a>
                 </div>
-                <div class="col-4 text-center">
+                <div data-name=".fakultas" class="col-4 text-center btn jr">
                   <img src="./images/jurnal.png" class="pelayanan" alt="">
-                  <a href="#">Jurnal</a>
+                  <a href="#">Fakultas</a>
                 </div>
-                <div class="col-4 text-center">
+                <div class="col-4 text-center btn jr">
                   <img src="./images/lab-icon-png-17.png" class="lab" alt="">
-                  <a href="#">Penelitian</a>
+                  <a href="#">Laboratorium</a>
                 </div> 
                 <div class="col-4 text-center">
                   <img src="./images/news.png" class="lab" alt="">
-                  <a href="#">Berita</a>
+                  <a href="#">Penelitian</a>
                 </div>
                 <div class="col-4 text-center">
                   <img src="./images/lokasi.png" class="lab" alt="">
-                  <a href="#">Lokasi</a>
+                  <a href="#">Jurnal</a>
                 </div>
                 <div class="col-4 text-center">
                   <img src="./images/support-512.png" class="lab" alt="">
                   <a href="#">Call Center</a>
                 </div>                                     
+              </div>                           
+              
+              <div class="container sub-menu">
+                <div class="grid text-center" style="display: none;">
+                  <div class="row">
+                    <div class="text-center sub-menu-item">
+                      <div class="grid-item jurusan">
+                        <i class="fas fa-microchip"></i>
+                        <a href="#">Informatika</a>
+                      </div>
+                      <div class="grid-item jurusan">
+                        <i class="fas fa-bolt"></i>
+                        <a href="#">Teknik Elektro</a>
+                      </div>
+                      <div class="grid-item jurusan">
+                        <i class="fas fa-hard-hat"></i>
+                        <a href="#">Teknik Sipil</a>
+                      </div>
+                      <div class="grid-item jurusan">
+                        <i class="fas fa-globe-americas"></i>
+                        <a href="#">Hubungan Internasional</a>
+                      </div>
+                      <div class="grid-item jurusan hukum">
+                        <i class="fas fa-balance-scale"></i>
+                        <a href="#">Hukum</a>
+                      </div>
+                      <div class="grid-item jurusan">
+                        <i class="fas fa-tractor"></i>
+                        <a href="#">Pertanian</a>
+                      </div>
+                      <div class="grid-item fakultas">
+                        <i class="fas fa-cogs"></i>
+                        <a href="#">Teknik</a>
+                      </div>
+                      <div class="grid-item fakultas">
+                        <i class="fas fa-tractor"></i>
+                        <a href="#">Pertanian dan Peternakan</a>
+                      </div>
+                      <div class="grid-item fakultas kedokteran">
+                        <i class="fas fa-stethoscope"></i>
+                        <a href="#">Kedokteran</a>
+                      </div>
+                      <div class="grid-item fakultas kedokteran">
+                        <i class="fas fa-stethoscope"></i>
+                        <a href="#">Kedokteran</a>
+                      </div>
+                      <div class="grid-item fakultas kedokteran">
+                        <i class="fas fa-stethoscope"></i>
+                        <a href="#">Kedokteran</a>
+                      </div>
+                      <div class="grid-item fakultas kedokteran">
+                        <i class="fas fa-stethoscope"></i>
+                        <a href="#">Kedokteran</a>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>                
               </div>
-              <hr>
-              <div class="row">
-                <div class="col-4 text-center">                
-                  <img src="./images/person.png" class="person" alt="">
-                  <a href="#">Akun</a>
-                </div>
-                <div class="col-4 text-center">
-                  <img src="./images/support-512.png" class="lab" alt="">
-                  <a href="#">Call Center</a>
-                </div>
-                <div class="col-4 text-center">
-                  <img src="./images/lokasi.png" class="lab" alt="">
-                  <a href="#">Lokasi</a>
-                </div>              
-              </div>
-              <hr>
-              <div class="row">
-                <div class="col-4 text-center">                
-                  <img src="./images/person.png" class="person" alt="">
-                  <a href="#">Akun</a>
-                </div>
-                <div class="col-4 text-center">
-                  <img src="./images/support-512.png" class="lab" alt="">
-                  <a href="#">Call Center</a>
-                </div>
-                <div class="col-4 text-center">
-                  <img src="./images/lokasi.png" class="lab" alt="">
-                  <a href="#">Lokasi</a>
-                </div>
-                <div class="col-4 text-center">
-                  <img src="./images/lab-icon-png-17.png" class="lab" alt="">
-                  <a href="#">Penelitian</a>
-                </div>
-              </div>
+              <hr>                                          
             </div>        
           </div>
         </div>
@@ -466,6 +491,7 @@
 
     <!-- Plugins -->
     <script src="./js/jquery.animatecss.min.js"></script>
+    <script src="./js/isotop.js"></script>
 
     <!-- Global Init -->
     <script>

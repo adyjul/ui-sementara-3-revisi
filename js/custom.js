@@ -34,9 +34,15 @@
 
   var elementWindow = $(document).width();
   if (979 >= elementWindow) {
-    $(".modal-dialog").css("height","70%");    
+    $(".modal-dialog").css("height","70%");  
+    $(".sub-menu-item").css("margin-left","13px");
+    $(".sub-menu-item").removeClass("col-3");
+    $(".sub-menu-item").addClass("col-5");
   } else {
-    $(".modal-dialog").css("height","100%");    
+    $(".modal-dialog").css("height","80%");  
+    $(".sub-menu-item").css("margin-left","40px");
+    $(".sub-menu-item").removeClass("col-5");
+    $(".sub-menu-item").addClass("col-3");  
   }
 
   $(window).resize(function () {
@@ -44,8 +50,14 @@
     var element = $(document).width();
     if (979 >= element) {
       $(".modal-dialog").css("height","70%");  
+      $(".sub-menu-item").css("margin-left","13px");
+      $(".sub-menu-item").removeClass("col-3");
+      $(".sub-menu-item").addClass("col-5"); 
     } else {
       $(".modal-dialog").css("height","100%");  
+      $(".sub-menu-item").css("margin-left","40px");
+      $(".sub-menu-item").removeClass("col-5");
+      $(".sub-menu-item").addClass("col-3"); 
     }
   });
 
@@ -65,6 +77,35 @@
       "easeInOutExpo"
     );
   });
+
+  var grid = $('.grid').isotope({
+    // options
+    itemSelector: '.grid-item',
+    layoutMode: 'fitRows'
+  });
+  
+  var displayGrid = $(".grid"); 
+  var mainMenu = $(".main-menu");
+  var btnBack = $(".btn-back");
+
+  $(".jr").click(function(){   
+    displayGrid.css("display","block");
+    mainMenu.css("display","none");
+    btnBack.css("display","block");
+    $(".modal-dialog").css("height","50%");  
+
+    var value = $(this).attr("data-name")
+    grid.isotope({ filter: value })  
+  });
+
+  $(".btn-back").click(function(){
+    console.log("hai");
+    mainMenu.css("display","flex");
+    displayGrid.css("display","none");
+    btnBack.css("display","none");
+    $(".modal-dialog").css("height","80%"); 
+  })
+
 
   $(".berita").owlCarousel({
     autoplay: true,
