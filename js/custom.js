@@ -39,7 +39,7 @@
     $(".sub-menu-item").removeClass("col-3");
     $(".sub-menu-item").addClass("col-5");
   } else {
-    $(".modal-dialog").css("height","80%");  
+    $(".modal-dialog").css("height","100%");  
     $(".sub-menu-item").css("margin-left","40px");
     $(".sub-menu-item").removeClass("col-5");
     $(".sub-menu-item").addClass("col-3");  
@@ -92,7 +92,6 @@
     displayGrid.css("display","block");
     mainMenu.css("display","none");
     btnBack.css("display","block");
-    $(".modal-dialog").css("height","50%");  
 
     var value = $(this).attr("data-name")
     grid.isotope({ filter: value })  
@@ -102,8 +101,7 @@
     console.log("hai");
     mainMenu.css("display","flex");
     displayGrid.css("display","none");
-    btnBack.css("display","none");
-    $(".modal-dialog").css("height","80%"); 
+    btnBack.css("display","none")
   })
 
 
